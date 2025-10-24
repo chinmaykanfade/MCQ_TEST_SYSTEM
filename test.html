@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<!-- test.html (inside .container) -->
+<h3 id="subjectTitle"></h3>
+<p id="qText" class="question-text"></p>
+
+<!-- Option template: input then a custom mark then text -->
+<label class="option">
+  <input type="radio" name="opt" value="A" class="opt-input" id="optA">
+  <span class="radio-mark"></span>
+  <span class="option-text" id="aText"></span>
+</label>
+
+<label class="option">
+  <input type="radio" name="opt" value="B" class="opt-input" id="optB">
+  <span class="radio-mark"></span>
+  <span class="option-text" id="bText"></span>
+</label>
+
+<label class="option">
+  <input type="radio" name="opt" value="C" class="opt-input" id="optC">
+  <span class="radio-mark"></span>
+  <span class="option-text" id="cText"></span>
+</label>
+
+<label class="option">
+  <input type="radio" name="opt" value="D" class="opt-input" id="optD">
+  <span class="radio-mark"></span>
+  <span class="option-text" id="dText"></span>
+</label>
+
+
+<button onclick="nextQuestion()">Next</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
